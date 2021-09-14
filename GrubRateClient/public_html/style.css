@@ -1,0 +1,116 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-Dec-2020, 12:29:00
+    Author     : lee
+*/
+
+
+body {
+    color: black;
+    background-color: pink;
+    text-align: center;
+    font-weight: bold;
+}
+
+#navBar {
+    opacity: 95%;
+    margin: auto;
+    background-color: cyan;
+    height: 100px;
+    width: 85%;
+    text-align: center;
+    border-radius: 40px;
+
+}
+
+.links {
+    position: relative;
+    float: left;
+    left: 15%;
+    top: 27%;
+}
+
+a {
+    text-decoration: none;
+    margin: 35px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 37px;
+}
+
+.Logo {
+    height: 100px;
+    width: 150px;
+    position: relative;
+    left: 15px;
+    float: left;
+    top: 4px;
+}
+
+#nameTxt {
+    position: relative;
+    left: 25px;
+}
+
+#restTxt {
+    position: relative;
+    left: 10px;
+}
+
+#locationTxt {
+    position:relative;
+    left:16px;
+}
+
+#reviewTxt {
+    position: relative;
+    left: 20px;
+}
+
+#rating {
+    position: relative;
+    left: 5px;
+}
+
+#submitBtn, #updateBtn {
+    position:relative;
+    left: 41px;
+}
+#restTxt, #locationTxt, #reviewTxt ,#rating {
+
+    margin-top: 15px;
+}
+
+#reviewTbl {
+
+    width: 75%;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+th {
+    background-color: grey;
+    color: white;
+}

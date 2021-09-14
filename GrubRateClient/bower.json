@@ -1,0 +1,7 @@
+{
+    "name": "Expression project.name is undefined on line 2, column 16 in Templates/ClientSide/bower.json.", "version": "1.0.0", "main": "path/to/main.css", "ignore": [
+        ".jshintrc", "**/*.txt"
+    ], "dependencies": {
+    }, "devDependencies": {
+    }
+}

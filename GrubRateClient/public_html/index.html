@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>GrubRate</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="initialise.js"></script>
+        <script defer="defer" src="create.js"></script>
+        <link href ="style.css" rel= "stylesheet" >
+
+    </head>
+    <body>
+        <h1>Welcome To GrubRate</h1>
+        <div id="navBar">
+            <img src="Logos/GR.png" class ="Logo">
+            <div class="links">
+                <a href="index.html">Home</a> 
+                <a href="review.html">Reviews</a>
+                <a href="update.html">Update</a>
+            </div>
+        </div>
+        <div id="containerOne">
+            <p>This is where you can rate places to eat in Dublin</p>
+            <p>Below you can enter name and the restaurant you want to review below</p>
+        </div>
+        <div id="containerTwo">
+            <label>Name:</label>
+            <input id="nameTxt" name="name" placeholder="Enter your name" type="text"><br>
+            <label>Restaurant:</label>
+            <input id="restTxt" name="restaurant" placeholder="Enter restaurant name" type="text"><br>
+            <label>Location:</label>
+            <input id="locationTxt" name="location" placeholder="Enter the location" type="text"><br>
+            <label>Review:</label>
+            <input id="reviewTxt" name="review" placeholder="Enter your review" type="text"><br>
+            <label>Rating:</label>
+            <select id="rating">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <button id="submitBtn" value="Create" onclick="createReview();" type="submit">Submit Review</button>
+        </div>
+    </body>
+</html>

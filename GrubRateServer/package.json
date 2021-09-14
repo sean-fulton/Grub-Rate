@@ -1,0 +1,17 @@
+{
+    "name": "Expression project.name is undefined on line 2, column 16 in Templates/ClientSide/package.json.",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "shane",
+    "contributors": [],
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1"
+    }
+}

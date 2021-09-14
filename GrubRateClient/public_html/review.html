@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script defer="defer" src="initialise.js"></script>
+        <script defer="defer" src="review.js"></script>
+        <script defer="defer" src="delete.js"></script>
+        <link href ="style.css" rel =" stylesheet">
+    </head>
+    <body>
+        <div id="navBar">
+            <img src="Logos/GR.png" class ="Logo">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="review.html">Reviews</a>
+                <a href="update.html">Update</a>
+            </div>
+        </div>
+        <table id="reviewTbl">
+            <tr>
+                <th>Name</th>
+                <th>Restaurant</th>
+                <th>Location</th>
+                <th>Review</th>
+                <th>Rating</th>
+
+            </tr>
+        </table>
+        <button id="deleteBtn" onclick="deleteReview();">Delete</button>
+        <input id="deleteInput" placeholder="Enter the reviewer's name">
+        <form method="get" action="update.html">
+            <button id="reviewUpdateBtn" type="submit">Edit Review</button>
+        </form>
+    </body>
+</html>
